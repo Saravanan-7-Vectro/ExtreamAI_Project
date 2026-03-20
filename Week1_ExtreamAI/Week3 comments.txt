@@ -1,9 +1,0 @@
-docker run -p 8181:8181 -v "C:\Week 3 ExtreamAI\policies:/policies" openpolicyagent/opa:latest run --server --addr :8181 /policies
-
-
-
-curl -X POST "http://localhost:8181/v1/data/ai/governance/allow" -H "Content-Type: application/json" -d "{\"input\":{\"risk_level\":\"Low\"}}"
-
-curl -X POST "http://localhost:8181/v1/data/ai/governance/allow" -H "Content-Type: application/json" -d "{\"input\":{\"risk_level\":\"High\",\"approval\":false}}"
-
-curl -X POST "http://localhost:8181/v1/data/ai/governance/allow" -H "Content-Type: application/json" -d "{\"input\":{\"risk_level\":\"Low\",\"approval\":false}}"
