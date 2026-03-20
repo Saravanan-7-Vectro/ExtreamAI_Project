@@ -193,8 +193,34 @@
 ###### 9\. If denied, the action is blocked.
 
 ###### 10\. All decisions are logged for auditing and compliance.
+##### 7. Integration Points
 
-##### 7\. Outcome
+**1. User Interface**
+
+* Accepts user prompts
+
+**2. AI Agent**
+
+* Processes prompts and generates actions
+
+**3. Policy Engine (OPA)**
+
+* Evaluates governance policies
+
+**4. Execution Engine**
+
+* Executes approved actions
+
+**5. Audit Logging System**
+
+* Records governance decisions
+
+**6. Monitoring System**
+
+* Tracks compliance and system behavior
+
+
+##### 8\. Outcome
 
 ###### The governance enforcement framework ensures that AI actions are validated before execution. This structure enforces policy compliance, reduces operational risks, and enables responsible AI usage.
 
