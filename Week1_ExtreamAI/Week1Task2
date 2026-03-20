@@ -1,0 +1,31 @@
+                                                                                        WEEK 1 – TASK 2
+                                                                              Prompt Metadata & Audit Schema
+This document defines the standard metadata fields and audit logging schema for prompts processed by AI agents in Extream.AI. The goal is to ensure traceability, risk tracking, and compliance monitoring for all AI actions.
+
+Prompt Metadata Fields:
+    Field Name	                                                    Description
+risk_level	                                        Defines the risk category of the prompt (Low, Medium, High, Critical)
+compliance_tag	                                    Indicates the compliance category for the action
+approval_required	                                  Shows whether human approval is required
+timestamp	                                          Time when the prompt was processed
+agent_id	                                          Unique ID of the AI agent handling the prompt
+
+Prompt Audit JSON Schema
+{
+  "prompt_id": "PRMPT_001",
+  "agent_id": "analysis_agent",
+  "timestamp": "2026-03-06T12:00:00Z",
+  "risk_level": "Medium",
+  "compliance_tag": "internal_operation",
+  "approval_required": false,
+  "user_id": "USR_123",
+  "action_taken": "report_generated"
+}
+OUTPUT:
+"decision_log": "agent_generated_report"
+
+OPA Compatibility
+The metadata structure is designed to be compatible with Open Policy Agent (OPA) to enable future automated policy enforcement based on risk levels, compliance tags, and approval requirements.
+
+
+
