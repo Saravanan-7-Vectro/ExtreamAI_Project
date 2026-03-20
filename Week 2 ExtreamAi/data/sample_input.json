@@ -1,0 +1,14 @@
+{
+  "prompt": "Delete customer records from database",
+  "metadata": {
+    "agent_id": "agent_finance_01",
+    "risk_level": "high",
+    "compliance_tag": "data_protection",
+    "approval_required": false,
+    "timestamp": "2026-03-06T20:00:00Z"
+  },
+  "action": {
+    "type": "database_delete",
+    "target": "customer_table"
+  }
+}

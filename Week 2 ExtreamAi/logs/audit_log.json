@@ -1,0 +1,45 @@
+[
+    {
+        "log_id": "log_001",
+        "timestamp": "2026-03-07T10:15:00Z",
+        "prompt_input": "Delete customer records",
+        "agent_decision": {
+            "agent_id": "agent_finance_01",
+            "risk_level": "high"
+        },
+        "action_triggered": {
+            "type": "database_delete",
+            "target": "customer_table"
+        },
+        "governance_result": {
+            "decision": "blocked",
+            "reason": "High risk action requires approval"
+        }
+    },
+    {
+        "log_id": "log_002",
+        "timestamp": "2026-03-07T10:20:00Z",
+        "prompt_input": "Generate sales report",
+        "agent_decision": {
+            "agent_id": "agent_analytics_01",
+            "risk_level": "low"
+        },
+        "action_triggered": {
+            "type": "report_generation",
+            "target": "sales_data"
+        },
+        "governance_result": {
+            "decision": "allowed",
+            "reason": "Low risk action allowed"
+        }
+    },
+    {
+        "log_id": "c248f302-3f05-4b04-8afa-4e90d32f5b20",
+        "timestamp": "2026-03-06T15:07:35.554505",
+        "prompt_input": "Delete customer records",
+        "agent_id": "agent_finance_01",
+        "risk_level": "high",
+        "action": "database_delete",
+        "decision": "blocked"
+    }
+]

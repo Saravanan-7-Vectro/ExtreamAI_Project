@@ -1,0 +1,9 @@
+{
+  "input": {
+    "metadata": {
+      "agent_id": "agent_high_block",
+      "risk_level": "high",
+      "approval_required": false
+    }
+  }
+}

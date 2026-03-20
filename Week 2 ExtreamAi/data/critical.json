@@ -1,0 +1,8 @@
+{
+  "input": {
+    "metadata": {
+      "agent_id": "agent_critical",
+      "risk_level": "critical"
+    }
+  }
+}
