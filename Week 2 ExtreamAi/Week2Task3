@@ -16,33 +16,30 @@ c. DevOps / Execution Layer
   *Only approved actions are executed
   *Deployment pipelines enforce governance rules
 
-3. Integration Touchpoints
+3. Integration Touchpoints:
 
-Pre-Execution Validation
+Pre-Execution Validation:
   *Input validation
   *Policy evaluation (OPA)
   *Risk-based decision (allow/block)
 
-Post-Execution Logging
+Post-Execution Logging:
+  *Logs include agent ID, action, decision
+  *Enables audit and traceability
 
-Logs include agent ID, action, decision
+4. Future Compliance Extensions:
 
-Enables audit and traceability
-
-4. Future Compliance Extensions
-
-GDPR (Data Privacy)
-
-Data masking and privacy enforcement
-
-Restrict storage of personal data
+GDPR (Data Privacy):
+  *Data masking and privacy enforcement
+  *Restrict storage of personal data
+Example:
+Mask email, phone
 
 HIPAA (Healthcare Compliance)
-
-Secure handling of medical data
-
-Role-based access control
+  *Secure handling of medical data
+  *Role-based access control
+Example:
+Only doctors can see patient data
 
 5. Conclusion
-
-The governance framework ensures controlled AI execution through validation, policy enforcement, and logging. It provides clear interaction boundaries and supports future compliance integration.
+  The governance framework ensures controlled AI execution through validation, policy enforcement, and logging. It provides clear interaction boundaries and supports future compliance integration.
