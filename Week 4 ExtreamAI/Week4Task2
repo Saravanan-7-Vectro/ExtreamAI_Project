@@ -1,0 +1,66 @@
+                                GOV-W4-T2 – Audit & Escalation Framework (Structured Model)
+1. Objective
+The objective is to design a structured audit and escalation framework for AI governance, ensuring AI actions are evaluated based on risk levels and decisions are logged.
+2. Escalation Framework
+1. User submits request
+2. AI agent processes the request
+3. Governance policy evaluates risk level
+4. Escalation level is assigned:
+   - Low → Auto Approve
+   - Medium/High → Manual Review
+   - Critical → Block
+5. Final decision is generated
+6. Event is recorded in audit log
+AUTO_APPROVE – Low risk
+MANUAL_REVIEW – Medium/High risk
+BLOCK – Critical risk
+3. Risk Mapping
+Low → APPROVED
+Medium → PENDING_REVIEW
+High → PENDING_REVIEW
+Critical → REJECTED
+
+4. Audit Log Structure
+{
+ timestamp,
+ request_id,
+ user,
+ action,
+ risk_level,
+ risk_score,
+ escalation_level,
+ final_decision,
+ policy_id
+}
+Sample Audit Log Entry
+{
+ "timestamp": "2026-03-16 22:45:00",
+ "request_id": "REQ-3001",
+ "user": "guest",
+ "action": "delete_data",
+ "risk_level": "High",
+ "risk_score": 70,
+ "escalation_level": "MANUAL_REVIEW",
+ "final_decision": "PENDING_REVIEW",
+ "policy_id": "AI-GOV-ESC-002"
+}
+
+
+5. Escalation Lifecycle (Flowchart)
+
+User Request 
+     ↓
+AI Agent Processing 
+     ↓
+Policy Evaluation 
+     ↓
+Risk Level Check 
+     ↓
+[Low] → AUTO_APPROVE → APPROVED
+[Medium/High] → MANUAL_REVIEW → PENDING
+[Critical] → BLOCK → REJECTED
+     ↓
+Audit Log Storage
+
+6. Outcome
+Framework implemented successfully with structured logging and escalation handling.
