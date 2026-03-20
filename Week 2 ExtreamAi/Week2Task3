@@ -1,0 +1,48 @@
+Governance Architecture Integration Note
+1. Overview:
+  This document defines governance checkpoints across the AI system to ensure safe, compliant, and controlled execution of actions.
+
+2. Governance Checkpoints Mapping:
+a. GenAI Prompt Layer
+  *Input validation is applied to user prompts
+  *Unsafe or restricted prompts are blocked
+
+b. Agent Orchestration Layer
+  *Risk classification is performed
+  *Policies (OPA) evaluate actions
+  *High-risk actions require approval
+
+c. DevOps / Execution Layer
+  *Only approved actions are executed
+  *Deployment pipelines enforce governance rules
+
+3. Integration Touchpoints
+
+Pre-Execution Validation
+  *Input validation
+  *Policy evaluation (OPA)
+  *Risk-based decision (allow/block)
+
+Post-Execution Logging
+
+Logs include agent ID, action, decision
+
+Enables audit and traceability
+
+4. Future Compliance Extensions
+
+GDPR (Data Privacy)
+
+Data masking and privacy enforcement
+
+Restrict storage of personal data
+
+HIPAA (Healthcare Compliance)
+
+Secure handling of medical data
+
+Role-based access control
+
+5. Conclusion
+
+The governance framework ensures controlled AI execution through validation, policy enforcement, and logging. It provides clear interaction boundaries and supports future compliance integration.
