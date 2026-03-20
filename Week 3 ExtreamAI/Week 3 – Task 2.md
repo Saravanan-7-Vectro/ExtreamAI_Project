@@ -194,35 +194,7 @@
 
 ###### 10\. All decisions are logged for auditing and compliance.
 
-
-
-##### 7\. Integration Points
-
-###### 
-
-##### | 	Component      | 		Role                     |
-
-##### | -------------------- | --------------------------------------- |
-
-##### | User Interface       | Accepts user prompts                    |
-
-##### | AI Agent             | Processes prompts and generates actions |
-
-##### | Policy Engine (OPA)  | Evaluates governance policies           |
-
-##### | Execution Engine     | Executes approved actions               |
-
-##### | Audit Logging System | Records governance decisions            |
-
-##### | Monitoring System    | Tracks compliance and system behavior   |
-
-
-
-
-
-&nbsp;
-
-##### 8\. Outcome
+##### 7\. Outcome
 
 ###### The governance enforcement framework ensures that AI actions are validated before execution. This structure enforces policy compliance, reduces operational risks, and enables responsible AI usage.
 
