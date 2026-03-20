@@ -1,0 +1,147 @@
+Mon 03/16/2026 20:16:18.48 
+{"result":{"action":"edit_document","allowed":true,"decision":"ALLOW","risk_level":"Medium","user":"guest"}}
+
+ 
+Mon 03/16/2026 20:20:33.11 
+{"result":{"action":"edit_document","allowed":false,"decision":"DENY","risk_level":"Critical","user":"guest"}}
+
+
+ 
+Mon 03/16/2026 20:21:44.07 
+{"result":{"action":"edit_document","allowed":true,"decision":"ALLOW","risk_level":"Low","user":"guest"}}
+ 
+================= AI GOVERNANCE AUDIT LOG ================ 
+Timestamp : Mon 03/16/2026 20:27:56.65 
+Input Data : 
+{
+ "input": {
+  "user": "guest",
+  "action": "edit_document",
+  "risk_level": "Low"
+ }
+}{"result":{"action":"edit_document","allowed":true,"decision":"ALLOW","risk_level":"Low","user":"guest"}}
+-------------------------------------------------------- 
+ 
+================= AI GOVERNANCE AUDIT LOG ================ 
+Input Data : 
+{
+ "input": {
+  "request_id": "REQ-1001",
+  "user": "guest",
+  "action": "edit_document",
+  "risk_level": "Medium"
+ }
+}-------------------------------------------------------- 
+ 
+================= AI GOVERNANCE AUDIT LOG ================  
+Timestamp : Mon 03/16/2026 20:37:12.52 
+Input Data :  
+{
+ "input": {
+  "request_id": "REQ-1001",
+  "user": "guest",
+  "action": "edit_document",
+  "risk_level": "Medium"
+ }
+}{"result":{"action":"edit_document","allowed":true,"decision":"ALLOW","policy_id":"AI-GOV-001","request_id":"REQ-1001","risk_level":"Medium","risk_score":40,"user":"guest"}}
+-------------------------------------------------------- 
+================= AI GOVERNANCE AUDIT LOG ================  
+Timestamp : Thu 03/19/2026 15:15:47.54 
+Input Data :  
+{
+ "input": {
+  "request_id": "REQ-1002",
+  "user": "admin",
+  "action": "delete_database",
+  "risk_level": "Critical"
+ }
+}{"result":{"action":"delete_database","allowed":false,"decision":"DENY","policy_id":"AI-GOV-001","request_id":"REQ-1002","risk_level":"Critical","risk_score":95,"user":"admin"}}
+-------------------------------------------------------- 
+{"result":{"action":"view_report","allowed":true,"decision":"ALLOW","policy_id":"AI-GOV-001","request_id":"REQ-4001","risk_level":"Low","risk_score":10,"user":"guest"}}
+-------------------------------------------------------- 
+{"result":{"action":"view_report","allowed":true,"decision":"ALLOW","policy_id":"AI-GOV-001","request_id":"REQ-4001","risk_level":"Low","risk_score":10,"user":"guest"}}
+-------------------------------------------------------- 
+================= AI GOVERNANCE AUDIT LOG ================  
+Timestamp : Thu 03/19/2026 17:16:15.35 
+Input Data :  
+{
+ "input": {
+  "request_id": "REQ-4001",
+  "user": "guest",
+  "action": "view_report",
+  "risk_level": "Low"
+ }
+}{"result":{"action":"view_report","allowed":true,"decision":"ALLOW","policy_id":"AI-GOV-001","request_id":"REQ-4001","risk_level":"Low","risk_score":10,"user":"guest"}}
+-------------------------------------------------------- 
+================= AI GOVERNANCE AUDIT LOG ================  
+Timestamp : Thu 03/19/2026 17:16:58.54 
+Input Data :  
+{
+ "input": {
+  "request_id": "REQ-4001",
+  "user": "guest",
+  "action": "view_report",
+  "risk_level": "Low"
+ }
+}{"result":{"action":"view_report","allowed":true,"decision":"ALLOW","policy_id":"AI-GOV-001","request_id":"REQ-4001","risk_level":"Low","risk_score":10,"user":"guest"}}
+-------------------------------------------------------- 
+================= AI GOVERNANCE AUDIT LOG ================  
+Timestamp : Thu 03/19/2026 17:18:35.09 
+Input Data :  
+{
+ "input": {
+  "request_id": "REQ-4006",
+  "user": "unknown_user",
+  "action": "access_sensitive_data",
+  "risk_level": "High"
+ }
+}{"result":{"action":"access_sensitive_data","allowed":false,"decision":"APPROVAL_REQUIRED","policy_id":"AI-GOV-001","request_id":"REQ-4006","risk_level":"High","risk_score":70,"user":"unknown_user"}}
+-------------------------------------------------------- 
+================= AI GOVERNANCE AUDIT LOG ================  
+Timestamp : Thu 03/19/2026 17:25:24.95 
+Input Data :  
+{
+ "input": {
+  "request_id": "REQ-4006",
+  "user": "unknown_user",
+  "action": "access_sensitive_data",
+  "risk_level": "High"
+ }
+}{"result":{"action":"access_sensitive_data","allowed":false,"decision":"APPROVAL_REQUIRED","policy_id":"AI-GOV-001","request_id":"REQ-4006","risk_level":"High","risk_score":70,"user":"unknown_user"}}
+-------------------------------------------------------- 
+================= AI GOVERNANCE AUDIT LOG ================  
+Timestamp : Thu 03/19/2026 17:26:48.02 
+Input Data :  
+{
+ "input": {
+  "request_id": "REQ-4006",
+  "user": "unknown_user",
+  "action": "access_sensitive_data",
+  "risk_level": "High"
+ }
+}{"result":{"action":"access_sensitive_data","allowed":false,"decision":"APPROVAL_REQUIRED","policy_id":"AI-GOV-001","request_id":"REQ-4006","risk_level":"High","risk_score":70,"user":"unknown_user"}}
+-------------------------------------------------------- 
+================= AI GOVERNANCE AUDIT LOG ================  
+Timestamp : Thu 03/19/2026 17:31:46.74 
+Input Data :  
+{
+ "input": {
+  "request_id": "REQ-4006",
+  "user": "unknown_user",
+  "action": "access_sensitive_data",
+  "risk_level": "High"
+ }
+}{"result":{"action":"access_sensitive_data","allowed":false,"decision":"APPROVAL_REQUIRED","policy_id":"AI-GOV-001","request_id":"REQ-4006","risk_level":"High","risk_score":70,"user":"unknown_user"}}
+-------------------------------------------------------- 
+================= AI GOVERNANCE AUDIT LOG ================  
+Timestamp : Thu 03/19/2026 17:37:04.14 
+Input Data :  
+{
+ "input": {
+  "request_id": "REQ-4006",
+  "user": "unknown_user",
+  "action": "access_sensitive_data",
+  "risk_level": "High"
+ }
+}{"result":{"action":"access_sensitive_data","allowed":false,"decision":"APPROVAL_REQUIRED","policy_id":"AI-GOV-001","request_id":"REQ-4006","risk_level":"High","risk_score":70,"user":"unknown_user"}}
+-------------------------------------------------------- 

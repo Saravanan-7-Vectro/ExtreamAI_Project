@@ -1,0 +1,8 @@
+{
+ "input": {
+  "request_id": "REQ-4006",
+  "user": "unknown_user",
+  "action": "access_sensitive_data",
+  "risk_level": "High"
+ }
+}

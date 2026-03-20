@@ -1,0 +1,30 @@
+================= ESCALATION AUDIT LOG ================ 
+Timestamp : Thu 03/19/2026 10:57:06.91 
+{
+ "input": {
+  "request_id": "REQ-3001",
+  "user": "guest",
+  "action": "delete_data",
+  "risk_level": "High"
+ }
+}{"result":{"action":"delete_data","escalation_level":"MANUAL_REVIEW","final_decision":"PENDING_REVIEW","policy_id":"AI-GOV-ESC-002","request_id":"REQ-3001","risk_level":"High","risk_score":70,"user":"guest"}}
+------------------------------------------------------ 
+ 
+================= ESCALATION AUDIT LOG ================ 
+Timestamp : Thu 03/19/2026 11:06:15.57 
+{
+ "input": {
+  "request_id": "REQ-4001",
+  "user": "guest",
+  "action": "view_report",
+  "risk_level": "Low"
+ }
+}{"result":{"action":"view_report","escalation_level":"AUTO_APPROVE","final_decision":"APPROVED","policy_id":"AI-GOV-ESC-002","request_id":"REQ-4001","risk_level":"Low","risk_score":10,"user":"guest"}}
+------------------------------------------------------ 
+ 
+{"result":{"action":"view_report","escalation_level":"AUTO_APPROVE","final_decision":"APPROVED","policy_id":"AI-GOV-ESC-002","request_id":"REQ-4001","risk_level":"Low","risk_score":10,"user":"guest"}}
+------------------------------------------------------ 
+ 
+{"result":{"action":"access_sensitive_data","escalation_level":"MANUAL_REVIEW","final_decision":"PENDING_REVIEW","policy_id":"AI-GOV-ESC-002","request_id":"REQ-4006","risk_level":"High","risk_score":70,"user":"unknown_user"}}
+------------------------------------------------------ 
+ 
