@@ -1,0 +1,49 @@
+                                                                      Week 1 - Task 1
+                                                      SOC2-Lite Governance Framework – MVP Scope
+This document defines basic safety and control rules for AI agents in Extream.AI to ensure secure and responsible operation under MVP scope.
+
+Governance Objectives:
+•	Make AI work safely
+•	Stop harmful actions
+•	Track everything AI does
+•	Classify risky actions
+•	Ask human approval for risky actions
+
+Governance Checkpoints:
+1. Prompt Validation
+Every user prompt must be checked before AI executes it. Unsafe or restricted prompts will be blocked.
+2. Agent Decision Logging
+Every AI decision and action must be recorded with timestamp, user ID, and risk level.
+3. Escalation Approval
+High and Critical risk actions require human approval before execution.
+4. Action Traceability
+Every action must be traceable from the original prompt to final execution.
+
+
+Risk Classification:
+Low → Safe actions (text generation)
+Medium → Small impact (sending email)
+High → Sensitive data or money
+Critical →System changes or data deletion
+
+Workflow:
+
+Prompt
+  ↓
+Validation
+  ↓
+Risk Classification
+  ↓
+Approval
+  ↓
+Execution
+  ↓
+Logging
+
+Approval Boundaries:
+Human approval required when:
+•	Risk is High or Critical
+•	Money involved
+•	Sensitive data accessed
+•	System changes happen
+
