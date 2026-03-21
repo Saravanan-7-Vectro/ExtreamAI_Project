@@ -1,8 +1,9 @@
-                                                                                        WEEK 1 – TASK 2
-                                                                              Prompt Metadata & Audit Schema
+                                                              WEEK 1 – TASK 2
+                                                        Prompt Metadata & Audit Schema
 This document defines the standard metadata fields and audit logging schema for prompts processed by AI agents in Extream.AI. The goal is to ensure traceability, risk tracking, and compliance monitoring for all AI actions.
 
 Prompt Metadata Fields:
+
     Field Name	                                                    Description
 risk_level	                                        Defines the risk category of the prompt (Low, Medium, High, Critical)
 compliance_tag	                                    Indicates the compliance category for the action
