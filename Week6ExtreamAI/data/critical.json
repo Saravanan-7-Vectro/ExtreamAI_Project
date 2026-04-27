@@ -1,8 +1,0 @@
-{
-  "input": {
-    "agent_id": "agent_001",
-    "prompt_id": "prompt_critical",
-    "risk_level": "critical",
-    "action": "shutdown_system"
-  }
-}
