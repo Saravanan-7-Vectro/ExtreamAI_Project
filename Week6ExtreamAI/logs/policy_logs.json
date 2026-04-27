@@ -1,0 +1,48 @@
+{
+    "agent_id":  "agent_001",
+    "risk_level":  "test",
+    "timestamp":  "2026-04-07T21:38:02Z",
+    "prompt_id":  "prompt_001",
+    "request_id":  "21345ba4-f44a-4673-a095-21a19c033110",
+    "rule_applied":  "allow_low_medium",
+    "reason":  "Low/Medium risk allowed",
+    "decision":  "allow"
+}
+
+
+{
+    "agent_id":  "agent_001",
+    "risk_level":  "test",
+    "timestamp":  "2026-04-07T21:40:21Z",
+    "prompt_id":  "prompt_001",
+    "request_id":  "d7f02792-db4b-4649-be0f-5846bf111cdf",
+    "rule_applied":  "escalate_high",
+    "reason":  "High risk requires manual review",
+    "decision":  "escalate"
+}
+
+
+{
+    "agent_id":  "agent_001",
+    "risk_level":  "test",
+    "timestamp":  "2026-04-27T22:05:48Z",
+    "prompt_id":  "prompt_001",
+    "request_id":  "b67f0d60-5731-4521-b980-9b23bc346553",
+    "rule_applied":  "default_block",
+    "reason":  "Default deny (safety policy)",
+    "decision":  "block"
+}
+
+
+{
+    "agent_id":  "agent_001",
+    "risk_level":  "test",
+    "timestamp":  "2026-04-27T22:08:45Z",
+    "prompt_id":  "prompt_001",
+    "request_id":  "f02704fe-303b-4283-b7a1-d317e38e91f4",
+    "rule_applied":  "allow_low_medium",
+    "reason":  "Low/Medium risk allowed",
+    "decision":  "allow"
+}
+
+

@@ -1,0 +1,84 @@
+{
+    "agent_id":  "agent_001",
+    "risk_level":  "high",
+    "timestamp":  "2026-04-08T19:45:29Z",
+    "status":  "pending",
+    "request_id":  "b32fc2bb-5575-4f16-a7bc-8f476abd4a88",
+    "prompt_id":  "prompt_001",
+    "escalation_level":  "manual_review",
+    "decision":  "escalate"
+}
+
+
+{
+    "agent_id":  "agent_001",
+    "risk_level":  "critical",
+    "timestamp":  "2026-04-08T19:50:32Z",
+    "status":  "rejected",
+    "request_id":  "3d7d595d-f484-4a5f-b0ee-b53156bdcecc",
+    "prompt_id":  "prompt_001",
+    "escalation_level":  "blocked",
+    "decision":  "block"
+}
+
+
+{
+    "agent_id":  "agent_001",
+    "risk_level":  "low",
+    "timestamp":  "2026-04-08T20:02:22Z",
+    "status":  "approved",
+    "request_id":  "7d676ca6-efe3-44da-b61b-0ba1cedb727f",
+    "prompt_id":  "prompt_low",
+    "escalation_level":  "auto_approve",
+    "decision":  "allow"
+}
+
+
+{
+    "agent_id":  "agent_001",
+    "risk_level":  "high",
+    "timestamp":  "2026-04-08T20:02:44Z",
+    "status":  "pending",
+    "request_id":  "769ba488-4e09-45e5-a6c8-c7b7e46cc126",
+    "prompt_id":  "prompt_high",
+    "escalation_level":  "manual_review",
+    "decision":  "escalate"
+}
+
+
+{
+    "agent_id":  "agent_001",
+    "risk_level":  "low",
+    "timestamp":  "2026-04-27T22:09:51Z",
+    "status":  "approved",
+    "request_id":  "3a6c9052-46db-4922-b76f-4542bf55ddbe",
+    "prompt_id":  "prompt_low",
+    "escalation_level":  "auto_approve",
+    "decision":  "allow"
+}
+
+
+{
+    "agent_id":  "agent_001",
+    "risk_level":  "low",
+    "timestamp":  "2026-04-27T22:11:18Z",
+    "status":  "approved",
+    "request_id":  "13a79af4-b1f5-46c3-ad27-884d16b15b3e",
+    "prompt_id":  "prompt_low",
+    "escalation_level":  "auto_approve",
+    "decision":  "allow"
+}
+
+
+{
+    "agent_id":  "agent_001",
+    "risk_level":  "high",
+    "timestamp":  "2026-04-27T22:11:28Z",
+    "status":  "pending",
+    "request_id":  "af2e452e-3f12-4d0f-be48-854375230e4e",
+    "prompt_id":  "prompt_high",
+    "escalation_level":  "manual_review",
+    "decision":  "escalate"
+}
+
+

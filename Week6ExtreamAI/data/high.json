@@ -1,0 +1,8 @@
+{
+  "input": {
+    "agent_id": "agent_001",
+    "prompt_id": "prompt_high",
+    "risk_level": "high",
+    "action": "delete_data"
+  }
+}
