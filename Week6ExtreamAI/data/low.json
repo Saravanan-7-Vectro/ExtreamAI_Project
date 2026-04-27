@@ -1,0 +1,8 @@
+{
+  "input": {
+    "agent_id": "agent_001",
+    "prompt_id": "prompt_low",
+    "risk_level": "low",
+    "action": "summarize"
+  }
+}
